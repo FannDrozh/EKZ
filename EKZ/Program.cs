@@ -14,6 +14,9 @@ namespace EKZ
     /// </summary>
     public class Program
     {
+        /// <summary>
+        /// Класс для содержания методов вывода в csv
+        /// </summary>
         public class Entrecsv
         {
             public string s;
@@ -32,7 +35,9 @@ namespace EKZ
                 entre.Close();
             }
 
-            //Вывод введенных данных в csv
+            /// <summary>
+            /// Вывод введенных данных в csv
+            /// </summary>
             public void vivod()
             {
                 string[] lines = new string[] { s };
@@ -80,6 +85,11 @@ namespace EKZ
     /// </summary>
     public class matmodel
     {
+        /// <summary>
+        /// Это метод вычитания
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
         public void minus(int a, int b)
         {
             int minusi = a - b;
