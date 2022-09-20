@@ -18,7 +18,7 @@ namespace EKZ
         {
             public string s;
             /// <summary>
-            /// 
+            /// метод для создания ввода в файл
             /// </summary>
             public void entre()
             {
@@ -48,23 +48,24 @@ namespace EKZ
             entrecsv.vivod();
             entrecsv.entre();
             //переменные для суммы элементов
-            int a = 4;
-            int b = 2;
-            entrecsv.s = "Программа завершена";
+            
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            int sum = 0;
+            Console.WriteLine(sum);
             Sum();
+            Debug.WriteLine("Ответ: " + sum);
             matmodel mat = new matmodel();
             mat.minus(4, 2);
             TextWriterTraceListener[] listeners = new TextWriterTraceListener[] {
-            new TextWriterTraceListener("Model.txt"),  // путь на созданный txt файл
+            new TextWriterTraceListener("Model.txt"),// путь на созданный txt файл
             new TextWriterTraceListener(Console.Out)};
-            Debug.Listeners.AddRange(listeners);
-            
+            Debug.Listeners.AddRange(listeners);            
             Debug.WriteLine("Программа завершена"); //Сообщение  пользователю и вывод результата в файл
             Debug.Flush();
             Console.ReadKey();
             void Sum()
-            {
-                int sum;
+            {                
                 sum = a + b;
             }
         }
@@ -73,7 +74,7 @@ namespace EKZ
         
     }
     /// <summary>
-    /// Это класс 
+    /// Это класс для хранения метода вычитания 
     /// </summary>
     public class matmodel
     {
