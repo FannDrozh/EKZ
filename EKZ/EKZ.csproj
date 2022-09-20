@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Diagramm\Диаграммы.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Diagramm\Диаграма деятельности.png" />

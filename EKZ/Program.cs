@@ -25,7 +25,7 @@ namespace EKZ
             /// </summary>
             public void entre()
             {
-                //если выводит ошибку, необходимо создать Entre.txt в bin/Debug
+                //если выводит ошибку, необходимо создать Entre.txt в Debug
                 StreamReader entre = new StreamReader("Entre.txt");
                 while (!entre.EndOfStream)
                 {
