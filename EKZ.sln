@@ -9,6 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEKZ", "TestEKZ\TestEKZ.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task", "Task", "{6D3E6C92-9901-4B8A-B7BE-326F593DC221}"
 	ProjectSection(SolutionItems) = preProject
+		EKZ\bin\Debug\Entre.txt = EKZ\bin\Debug\Entre.txt
 		вариант 1 модульный экзамен.pdf = вариант 1 модульный экзамен.pdf
 	EndProjectSection
 EndProject

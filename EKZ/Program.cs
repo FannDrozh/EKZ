@@ -18,10 +18,11 @@ namespace EKZ
         {
             public string s;
             /// <summary>
-            /// метод для создания ввода в файл
+            /// метод для создания вывода из файла в консоль
             /// </summary>
             public void entre()
             {
+                //если не выводит ошибку, необходимо создать Entre.txt в 
                 StreamReader entre = new StreamReader("Entre.txt");
                 while (!entre.EndOfStream)
                 {
