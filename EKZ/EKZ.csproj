@@ -48,6 +48,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Diagramm\Диаграммы.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Diagramm\Диаграма деятельности.png" />
+    <Content Include="Diagramm\Диаграмма вариантов использования.png" />
+    <Content Include="Diagramm\Диаграмма классов.png" />
+    <Content Include="Diagramm\Диаграмма компонентов.png" />
+    <Content Include="Diagramm\Диаграмма последовательности.png" />
+    <Content Include="Diagramm\Диаграмма развёртывания.png" />
+    <Content Include="Diagramm\Диаграмма состояния.png" />
+    <Content Include="Diagramm\Диграмма потоков.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
