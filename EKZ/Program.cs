@@ -48,11 +48,11 @@ namespace EKZ
             entrecsv.vivod();
             entrecsv.entre();
             //переменные для суммы элементов
-            
+            Console.WriteLine("Введите а");
             int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите b");
             int b = Convert.ToInt32(Console.ReadLine());
-            int sum = 0;
-            Console.WriteLine(sum);
+            int sum;            
             Sum();
             Debug.WriteLine("Ответ: " + sum);
             matmodel mat = new matmodel();
@@ -67,6 +67,7 @@ namespace EKZ
             void Sum()
             {                
                 sum = a + b;
+                Console.WriteLine(sum);
             }
         }
 
